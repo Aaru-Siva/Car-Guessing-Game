@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.madcousework">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="CaGo"
+        android:roundIcon="@drawable/bgl"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MadCouseWork">
+        <activity
+            android:name=".AdvancedLevel"
+            android:label="AdvancedLevel"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.madcousework.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Hints"
+            android:label="Hints"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.madcousework.MainActivity" />
+        </activity>
+        <activity
+            android:name=".CarImage"
+            android:label="CarImage"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.madcousework.MainActivity" />
+        </activity>
+        <activity
+            android:name=".CarMake"
+            android:label="CarMake"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.madcousework.MainActivity" />
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

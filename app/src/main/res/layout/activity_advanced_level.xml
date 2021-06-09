@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/purple"
+    tools:context=".AdvancedLevel">
+
+    <TextView
+        android:id="@+id/brand2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="@string/brand_2"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/advancedAnswer1" />
+
+    <TextView
+        android:id="@+id/brand3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/brand_3"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/brandImage2" />
+
+    <EditText
+        android:id="@+id/advanceEditText2"
+        android:layout_width="176dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="112dp"
+        android:background="#79BB86FC"
+        android:hint="@string/type_guess_brand2"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:onClick="onEditTextClick2"
+        android:paddingStart="15dp"
+        android:paddingTop="5dp"
+        android:paddingEnd="15dp"
+        android:paddingBottom="5dp"
+        android:selectAllOnFocus="true"
+
+        android:singleLine="true"
+        android:textColor="#FFFFFF"
+        android:textColorHint="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.963"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/advancedAnswer1" />
+
+    <EditText
+        android:id="@+id/advanceEditText3"
+        android:layout_width="174dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="92dp"
+        android:background="#79BB86FC"
+        android:focusable="true"
+        android:hint="@string/type_guess_brand3"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:onClick="onEditTextClick3"
+        android:paddingStart="15dp"
+        android:paddingTop="5dp"
+        android:paddingEnd="15dp"
+        android:paddingBottom="5dp"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:textColor="#FFFFFF"
+        android:textColorHint="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.949"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/advancedAnswer2" />
+
+    <ImageView
+        android:id="@+id/brandImage1"
+        android:layout_width="184dp"
+        android:layout_height="138dp"
+        android:layout_marginTop="128dp"
+        android:contentDescription="@string/a_random_brand"
+        android:src="@drawable/bmw_0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/brandImage2"
+        android:layout_width="183dp"
+        android:layout_height="168dp"
+        android:layout_marginTop="12dp"
+        android:contentDescription="@string/a_random_brand"
+        android:src="@drawable/audi_0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/brand2" />
+
+    <ImageView
+        android:id="@+id/brandImage3"
+        android:layout_width="190dp"
+        android:layout_height="143dp"
+        android:contentDescription="@string/a_random_brand"
+        android:src="@drawable/acura_0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/brand3" />
+
+    <Button
+        android:id="@+id/advancedBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:onClick="onSubmit"
+        android:text="@string/submit"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/advancedCorrectWrong"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/brand1"
+        android:layout_width="102dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="96dp"
+        android:text="@string/brand_1"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/advanceEditText1"
+        android:layout_width="176dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="76dp"
+        android:background="#79BB86FC"
+        android:hint="@string/type_guess_brand1"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:onClick="onEditTextClick1"
+        android:paddingStart="15dp"
+        android:paddingTop="5dp"
+        android:paddingEnd="15dp"
+        android:paddingBottom="5dp"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:textColor="#FFFFFF"
+        android:textColorHint="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.958"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AdvancedScore" />
+
+    <TextView
+        android:id="@+id/advancedAnswer1"
+        android:layout_width="161dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/carname"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/purple_200"
+        android:textSize="14sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.896"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/advanceEditText1" />
+
+    <TextView
+        android:id="@+id/advancedAnswer2"
+        android:layout_width="161dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/carname"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/purple_200"
+        android:textSize="14sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.896"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/advanceEditText2" />
+
+    <TextView
+        android:id="@+id/advancedAnswer3"
+        android:layout_width="164dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/carname"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/purple_200"
+        android:textSize="14sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.912"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/advanceEditText3" />
+
+    <TextView
+        android:id="@+id/AdvancedScore"
+        android:layout_width="56dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/score"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/advancedScoreChanging"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/advancedScoreChanging"
+        android:layout_width="56dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="64dp"
+        android:text="@string/_0"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/advancedCorrectWrong"
+        android:layout_width="92dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="688dp"
+        android:text="@string/correct"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.086"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lvl4Timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/_10"
+        android:textSize="24sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/advancedScoreChanging"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.978"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

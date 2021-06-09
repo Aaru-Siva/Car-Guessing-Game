@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">CaGo</string>
+    <string name="advanced_level">advanced_level</string>
+    <string name="car_image">car_image</string>
+    <string name="hints">hints</string>
+    <string name="car_make">car_make</string>
+    <string name="bmw1">bmw1</string>
+    <string name="random">random</string>
+    <string name="audi">audi</string>
+    <string name="bmw">bmw</string>
+    <string name="suz">suz</string>
+    <string name="logo">logo</string>
+    <string name="brand_name">Brand Name</string>
+    <string name="timer">Timer</string>
+    <string name="answerLabel">TextView</string>
+    <string name="correctAnswer">TextView</string>
+    <string name="submitResult">Submit</string>
+    <string name="timerr">timer</string>
+    <string name="not_answered">NOT ANSWERED</string>
+    <string name="submit">Submit</string>
+    <string name="randomimage1">randomImage1</string>
+    <string name="randomimage2">randomImage2</string>
+    <string name="randomimage3">randomImage3</string>
+    <string name="textview1">TextView</string>
+    <string name="textview2">TextView</string>
+    <string name="textview3">TextView</string>
+    <string name="enter_brand_name1">Enter Brand Name</string>
+    <string name="enter_brand_name2">Enter Brand Name</string>
+    <string name="enter_brand_name3">Enter Brand Name</string>
+    <string name="socre">socre</string>
+    <string name="hint_image_view">hint image view</string>
+    <string name="textview">textview</string>
+    <string name="_10">_10</string>
+    <string name="enter_a_letter">enter_a_letter</string>
+    <string name="CORRECT">correct</string>
+    <string name="incorrect_guess">incorrect_guess</string>
+    <string name="WRONG">wrong</string>
+    <string name="carname">carName</string>
+    <string name="feedback">feedback</string>
+    <string name="correct">Correct</string>
+    <string name="score">score</string>
+    <string name="next">Next</string>
+    <string name="brand_2">Brand 2</string>
+    <string name="brand_3">Brand 3</string>
+    <string name="guess_brand_1">Guess Brand 1</string>
+    <string name="guess_brand_2">Guess Brand 2</string>
+    <string name="guess_brand_3">Guess Brand 3</string>
+    <string name="brand_1">Brand 1</string>
+    <string name="_0">0</string>
+    <string name="type_guess_brand1">Type Guess Brand1</string>
+    <string name="type_guess_brand2">Type Guess Brand2</string>
+    <string name="type_guess_brand3">Type Guess Brand3</string>
+    <string name="oops_incorrect_guess">OOPS! incorrect guess</string>
+    <string name="enter_a_letter_here">Enter a Letter here</string>
+    <string name="a_random_brand">a_random_brand</string>
+    <string-array name="brand_names_array">
+        <item>acura</item>
+        <item>audi</item>
+        <item>bentley</item>
+        <item>bmw</item>
+        <item>buick</item>
+        <item>cadillac</item>
+        <item>chevrolet</item>
+        <item>citroen</item>
+        <item>dodge</item>
+        <item>ferrari</item>
+        <item>fiat</item>
+        <item>ford</item>
+        <item>geeky</item>
+        <item>genesis</item>
+        <item>gmc</item>
+        <item>honda</item>
+        <item>jeep</item>
+        <item>kia</item>
+        <item>lamborghini</item>
+        <item>lotus</item>
+        <item>mazda</item>
+        <item>nissan</item>
+        <item>pontiac</item>
+        <item>renault</item>
+        <item>subaru</item>
+        <item>suzuki</item>
+        <item>tesla</item>
+        <item>toyota</item>
+        <item>volvo</item>
+    </string-array>
+</resources>
